@@ -1,0 +1,230 @@
+body {
+    font-family: Sans-Serif;
+}
+
+.navIcon {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.head {
+    font-size: 20px;
+}
+
+.ImgA {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 799px) {
+    .subHead {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navImg {
+        height: 65px;
+        width: 65px;
+    }
+
+    .mainHeading {
+        font-size: 24px;
+    }
+
+    .mainPassage {
+        font-size: 14px;
+    }
+
+    .subHeading {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .subPassage {
+        font-size: 18px;
+    }
+
+    .bottomHeading {
+        font-size: 34px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 801px) {
+    .subHead {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .navImg {
+        height: 94px;
+        width: 94px;
+    }
+
+    .mainHeading {
+        font-size: 36px;
+    }
+
+    .mainPassage {
+        font-size: 18px;
+    }
+
+    .subPassage {
+        font-size: 26px;
+    }
+
+    .subHeading {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .bottomHeading {
+        font-size: 48px;
+        font-weight: bold;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 600px) {
+    .mainPassage {
+        font-size: 24px;
+    }
+}
+
+.project-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #57eb44);
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.thanking-customers-section-modal-title {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.custom-button {
+    background-image: linear-gradient(#fff8db, #57eb44);
+    width: 130px;
+    height: 45px;
+    font-weight: 500;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #13f207;
+    font-size: 35px;
+}
+
+.payment-section {
+    background-color: white;
+}
+
+.payment-section-img {
+    width: 270px;
+}
+
+.payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.Shadow:hover {
+    box-shadow: 5px 6px 15px #000;
+}
+
+.Shadow-box:hover {
+    border: solid #2deb07;
+    box-shadow: 0px 0px 5px #2deb07;
+}
